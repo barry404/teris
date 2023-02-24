@@ -23,6 +23,10 @@ macro_rules! impl_shape_constructor {
 }
 
 impl Shape {
+
+
+
+
     impl_shape_constructor! {
         new_i: [Pos(0, 0), Pos(1, 0), Pos(2, 0), Pos(3, 0)] anchored at Pos(1, 0);
         new_o: [Pos(0, 0), Pos(1, 0), Pos(0, 1), Pos(1, 1)] anchored at Pos(0, 0);
